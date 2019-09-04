@@ -2,7 +2,7 @@ body{
     box-sizing: border-box;
     height: 100vh;
     overflow: hidden;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqm-DKw7exni5M5lelnQo2RB4Rr9PZgFc0fbzEzaT6avgQACm0tQ);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHuYa6UrLbamXer8kPUkGmt72MmLK3Dh4J3Afe52dbytC51Bi7);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -37,7 +37,7 @@ nav{
 hr{
     width: 95%;
     
-    border: solid red 2px;
+    border: solid purple 2px;
 }
 
 main>img{
