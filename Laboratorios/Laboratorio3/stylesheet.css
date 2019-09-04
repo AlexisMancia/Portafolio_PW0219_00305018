@@ -1,0 +1,67 @@
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqm-DKw7exni5M5lelnQo2RB4Rr9PZgFc0fbzEzaT6avgQACm0tQ);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 1em 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+main{
+    widows: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: flex-end;
+}
+
+
+main>img{
+    width: 20%;
+    height: auto;
+    margin: 1em;
+    align-content: center;
+}
+main .logos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.logos>img{
+    object-fit: cover;
+
+    widows: 5em;
+    height: 5em;
+    margin: 0.5em;
+
+    border: 1px solid black;
+    border-radius: 100%;
+    opacity: 0.7;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
