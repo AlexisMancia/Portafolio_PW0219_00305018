@@ -1,0 +1,148 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(https://newevolutiondesigns.com/images/freebies/white-wallpaper-18.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 1em 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+  widows: 90%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main hr {
+  width: 95%;
+  border: solid purple 2px;
+}
+
+main h1 {
+  font-size: 5em;
+  background-color: rgba(128, 128, 128, 0.281);
+}
+
+main h1:hover {
+  -webkit-box-shadow: 5px 5px 3px purple;
+          box-shadow: 5px 5px 3px purple;
+}
+
+main > img {
+  width: 20%;
+  height: auto;
+  margin: 1em;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: gray;
+  background-blend-mode: color-burn;
+}
+
+main > img:hover {
+  background-color: red;
+}
+
+main .logos {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .logos img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  widows: 5em;
+  height: 5em;
+  margin: 0.5em;
+  border: 1px  black;
+  border-radius: 100%;
+  opacity: 1;
+}
+
+main .logos img:hover {
+  opacity: 0.7;
+  background-color: purple;
+  border: 0px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+a {
+  border: solid 1px blue;
+  background-color: aqua;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 1em;
+}
+
+a:hover {
+  opacity: 0.7;
+  background-color: aqua;
+  border: 0px;
+  -webkit-box-shadow: 10px 10px 5px orange;
+          box-shadow: 10px 10px 5px orange;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=Ejer1.css.map */
