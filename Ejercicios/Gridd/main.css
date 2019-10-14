@@ -6,10 +6,9 @@ body,html{
 }
 .container{
     display: grid;
-    
     width: 100%;
-    grid-template-columns: 200px 1fr;
-    grid-template-rows: 100px 1fr 120px;
+    grid-template-columns: 175px 1fr;
+    grid-template-rows: 80px 1fr 100px;
     height: 100%;
 }
 header{
