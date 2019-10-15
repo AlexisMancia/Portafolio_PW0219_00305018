@@ -4,7 +4,7 @@ body,html{
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(http://pavbca.com/walldb/original/b/c/d/363283.jpg);
+    background-image: url("../images/wallpaperblog.jpg");
     background-size: cover;
 }
 .container{
@@ -51,6 +51,7 @@ aside nav p{
     color: white;
     font-size: 1.5em;
     line-height: 25px;
+    text-decoration-style: wavy;;
 }
 
 aside{
@@ -99,8 +100,7 @@ aside nav ul li a:hover{
     padding: 0 2em;
     height: 1fr;
     width: 1fr;
-    /*background-image: url(https://www.pnglot.com/pngfile/detail/12-128459_anonymous-mask-anonymous-mask-drawing.png);
-    */background-image:url(https://www.setaswall.com/wp-content/uploads/2017/06/Anonymous-Wallpapers-11-1680-x-1050.jpg);
+    background-image: url("../images/wallpaper.jpg");
     background-size: cover;
     background-position: fixed;
 }

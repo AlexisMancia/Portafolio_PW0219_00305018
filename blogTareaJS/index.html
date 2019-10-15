@@ -47,15 +47,13 @@
                     Se nos introduce por primera vez a Kurt el personajes que mediante ejercicios y pistas, se nos muestra el primer codigo QR, y este nos dirige a la primera pagina de ehterpad, en la cual se nos introduce al juego, y las indicaciones del primer ejercicio.
                 </p>
                 <p>
-                    explicacion de como resolverlo
-                </p>
-                <p>
-                    nos dice que la psita esta en el poli
+                    Lo primero que se hizo para resolver los problemas fue ingresar a la pagina https://dei2.uca.edu.sv/phppgadmin con las credencias del carnet estudiantil.
+                    EL ejercicio cosistia en validar el DUI de las personas de la tabla miembros. Se validaba la expresion regular del DUI(10 caracteres y en la posicion 9 un guion) se debian efectuar las operaciones mensionadas en la pagina https://etherpad.net/p/r.b0894134ffcbb8ee6a03,
+                    al hacer esto se creaba una funcion, en la cual se evaluavan los valores predefinidos, al realizar el ejercicio se activaba un trigger interno de la base de datos que nos decia que debiamos revisar la tabla kurt_out en la fila  1.En esta oagina nos deja un link de finalizacion en el cual nos da la pista siguiente la cual era un acertijo.El cual al resolverlo nos dice que vayamos al polideportivo, en donde estaba el siguiente codigo QR
                 </p>
                 <div class="photo-container">
                     <img class="vertical-photo"  src="images/lunes.jpeg" alt="foto">
                 </div>
-                
             </article>
             <article id="article2" class="martes not-visible">
                 <h2>Martes</h2>
@@ -64,14 +62,14 @@
                     Tambien nos deja las indicaciones del segundo ejercicio de Administracion de base de datos.
                 </p>
                 <p>
-                    explicacion
+                    Este ejercicio consistia en realizar dos triggers, en los cuales se debia revisar que los miembros representantes de un departamento, no debian pertenecer a otro departamento, y que esto se debia revisar a la hora de hacer insert o actualizaciones en la tabla.Tambien se debia de revisar si un miembro se movia de un departamento a otro este trigger debia revisar si el miembro que se iba a mover no estaba de representante en el departamento, sino esto deberia de dar error.
                 </p>
                 <p>
                     Al resolver el ejercicio, Kurt nos dice que la siguiente pista se presentara en el atrio que esta debajo de las Aulas D, en el cual se estaba pintando un mural, y que la persona encargada de realizarlo nos daria la siguiente pista.
                     La cual era un codigo QR que estaba impreso y pegado en una de las columnas.
                 </p>
                 <div class="photo-container">
-                    <img src="#" alt="imagen-poli">
+                    <img src="images/poli.jpg" alt="imagen-poli">
                 </div>
             </article>
             <article id="article3" class="miercoles not-visible">
@@ -80,7 +78,8 @@
                     Despues de escanear el codigo QR, este nos manda a otro Url de etherpad, en el cual Kurt nos deja las indicaciones del siguiente ejercicio, y nos cuenta de como se va desarrolando la historia dentro del "juego".
                 </p>
                 <p>
-                    explicacion
+                    Este ejercicio consistia en realizar un trigger y una funcion, en la cual el trigger era cuando se introdujera un miembro que su atributo de denominacion_departamento corresponda a la tabla de la subclase a la que pertenecia su DUI(ingenieria,ventas,gestion), y que si no estaba en ninguna introducirlo automaticamente en alguna de estas tablas.
+                    La funcion consistia en que cuando se actualizaba la denominacion_departamento del miembro, la funcion eliminaba de la tabla a la que pertenecia y luego lo añadia a la tabla a la que se ha movido.
                 </p>
                 <p>
                     Luego se nos dice que nos presentemos a la clase de Base de datos, en la cual Carlos nos ayudo a hacer el ejercicio, ya que debido a cuestiones de tiempo no lo pude realizar.
