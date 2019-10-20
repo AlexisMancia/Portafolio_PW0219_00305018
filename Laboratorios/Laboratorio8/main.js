@@ -30,17 +30,36 @@ let new_btn= document.createElement("button")
 new_btn.className = "btn btn-danger"
 new_btn.innerText = "Drop"
 new_btn.value = element.id
+new_btn.disabled = false
 
 let new_cell2 = document.createElement("td")
 let new_input= document.createElement("input")
 new_input.className = "confirm"
 new_input.innerText = "Carnet"
+/*
+-------Activar Boton
+new_input.addEventListener("keyup", event=>{
+    let keyCode2 = event.keyCode
+    let carnet2 = element.carnet
 
+    if(keyCode == 13){
+        new_btn.click()
+        }
+        
+    if(new_input.value == element.carnet){
+    new_btn.disabled = false;
+    }else{
+    new_btn.disabled = true;
+    }
+
+
+})
+*/
 new_btn.addEventListener("click", event =>{
 let id_actual = event.target.value
 
 student_list.forEach((element, pos)=>{
-if(new_input.value == element.carnet){
+if(new_input.value == element.carnet && id_actual == element.id){
 student_list.splice(pos,1)
 printArray()
 }
